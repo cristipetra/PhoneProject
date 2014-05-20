@@ -1,0 +1,404 @@
+
+/*##################################################  RGEN MODULES  ###########*/
+.font-preview { border:5px solid #eee; padding:8px 10px; font-size:20px; margin:10px 2px; font-family:Arial, Helvetica, sans-serif; }
+
+.site-button {
+	cursor: pointer;
+	line-height: 12px;
+	font-size:12px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	-khtml-border-radius:15px;
+	border-radius:15px;
+	display: inline-block;
+	background:#666;
+	color:#fff;
+	padding: 7px 15px 7px 15px;
+	}
+
+.vtabs-content { display:none; }
+.ThemeOverview-popup {
+	box-shadow:0px 5px 100px 0px rgba(0, 0, 0, 0.8);
+	}
+
+.rgen-mod #ThemeSetting table.form > tbody > tr > td:first-child{
+	width:150px;
+	}
+
+.from-wrp {
+	padding:20px 0;
+	border-top:1px solid #e4e3e3;
+	border-bottom:1px solid #e4e3e3;
+	}
+
+/* THEME SETTINGS */
+
+.rgen-mod .column {
+	width:100%;
+	}
+.rgen-mod .column .col-left {
+	padding-right:1%;
+	width:49%;
+	vertical-align:top;
+	
+	}
+.rgen-mod .column .col-right {
+	padding-left:1%;
+	vertical-align:top;
+	}
+.rgen-mod #ThemeSetting .hex {
+	width:50px;
+	border-radius:5px;
+	border:2px solid #d6d6d6;
+	font-size:12px;
+	padding:3px;
+	}
+.rgen-mod #ThemeSetting .rgb {
+	width:100px;
+	border:2px solid #d6d6d6;
+	border-radius:5px;
+	font-size:12px;
+	padding:3px;
+	}
+.rgen-mod .header-1 {
+	margin:0;
+	font-size:18px;
+	color:#333;
+	/*border-bottom:1px solid #f3dfad;*/
+	}
+.rgen-mod .header-2 {
+	margin:0 0 18px 0;
+	font-size:16px;
+	color:#333;
+	/*border-bottom:1px solid #f3dfad;*/
+	}
+.rgen-mod #RGen_CustomCSS,
+.rgen-mod #RGen_CustomJS {
+	border:2px solid #d6d6d6;
+	border-radius:5px;
+	font-size:13px;
+	padding:10px;
+	color:#333;
+	width:97%;
+	height:400px;
+	}
+.rgen-mod .header-1 .toggleBt,
+.rgen-mod .header-1 .resetBt,
+.rgen-mod .bt  {
+	display:inline-block;
+	font-size:11px;
+	font-weight:bold;
+	background:#000;
+	color:#fff;
+	font-weight:bold;
+	border-radius:6px;
+	text-align:center;
+	padding:4px 10px 3px 10px;
+	text-transform:uppercase;
+	text-decoration:none;
+	position:relative;
+	top:-2px;
+	}
+.rgen-mod .header-1 .toggleBt { display:none; }
+.rgen-mod .header-1 .r {
+	float:right;
+	}
+.rgen-mod .header-1 .r a {
+	margin:0 0 0 15px;
+	}
+.rgen-mod .header-1 .resetBt {
+	float:right;
+	font-size:12px;
+	padding:4px 10px;
+	}
+.rgen-mod .bt {
+	float:none;
+	background:#fff;
+	color:#000;
+	box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+	}
+.rgen-mod .PreviewImage {
+	background:#fff;
+	padding:10px;
+	border:none;
+	box-shadow:0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	margin-bottom:5px;
+	}
+.rgen-mod .style-box {
+	border-radius:8px;
+	padding:15px;
+	background:#f7f7f7;
+	margin-bottom:10px;
+	box-shadow:0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+	}
+.style-box-content {
+	/*display:none;*/
+	margin-top:15px;
+	position:relative;
+	}
+.rgen-mod .open .style-box-content {
+	display:block !important;
+	}
+.rgen-mod .close .style-box-content {
+	display:none !important;
+	}
+
+
+.rgen-mod .form1 {
+	width:100%;
+	border-top:1px solid #e4e3e3 !important;
+	border-collapse:collapse;
+	}
+.rgen-mod .form1 tr > .label {
+	width:170px !important;
+	font-weight:bold;
+	color:#333
+	}
+.rgen-mod .form1 tr > .label {
+	background:#eeeeee;
+	}
+.rgen-mod .form1 tr > .label,
+.rgen-mod .form1 tr > .field {
+	border-bottom:1px solid #e4e3e3 !important;
+	padding:10px;
+	}
+.rgen-mod .form1 tr > .label strong {
+	display:inline-block;
+	vertical-align:middle;
+	width:130px;
+	}
+.number {
+	width:24px !important;
+	height:20px;
+	background:#000;
+	border:3px solid #fff;
+	text-align:center;
+	border-radius:30px;
+	color:#fff;
+	font-size:14px;
+	box-shadow:0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+	padding:4px 0 0 0;
+	position:relative;
+	left:-3px;
+	}
+.rgen-mod .form1 .sub-from {
+	border-collapse:collapse;
+	padding:0px;
+	margin:0px;
+	}
+.rgen-mod .form1 .sub-from td,
+.rgen-mod .sub-from1 td {
+	padding-right:15px;
+	color:#666;
+	font-size:11px;
+	}
+.rgen-mod .sub-from1 td {
+	padding-right:10px;
+	}
+.rgen-mod .content {
+	background:#eeeeee;
+	padding:25px;
+	}
+.rgen-mod #mainTabs {
+	margin:0px;
+	height:45px;
+	border:none;
+	text-align:center;
+	padding-left:20px;
+	}
+.rgen-mod #mainTabs a {
+	border-radius:8px 8px 0 0;
+	font-size:16px;
+	font-weight:bold;
+	padding: 15px 20px 14px 20px;
+	background:#ffd05e;
+	border:none;
+	color:#000;
+	margin:0 5px 0 0;
+	text-transform:uppercase;
+	}
+.rgen-mod #mainTabs a.selected {
+	background:#fff;
+	border:none;
+	color:#000;
+	
+	}
+.rgen-mod .htabs-content {
+	background:#fff;
+	border-radius:8px;
+	padding:20px;
+	min-height:500px;
+	box-shadow:0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+	}
+
+.rgen-mod .htabs {
+	border-bottom:5px solid #000;
+	}
+.rgen-mod .htabs a {
+	border-radius:8px 8px 0 0px;
+	background:#ffebbb;
+	border:none;
+	}
+.rgen-mod .htabs a.selected {
+	background:#000;
+	color:#fff;
+	}
+
+.rgen-mod .ft-control {
+	background:#666;
+	padding:10px 15px;
+	margin-bottom:20px;
+	color:#fff;
+	}
+
+.rgen-mod table.form > tbody > tr > td {
+	border-bottom:1px solid #dfdfdf;
+	}
+.rgen-mod table.form {
+	border-top:1px solid #dfdfdf;
+	}
+.rgen-mod table.form > tbody > tr > td:first-child {
+	font-weight:bold;
+	background:#f7f7f7;
+	}
+.rgen-mod span.cke_skin_kama {
+	background:#fff;
+	padding:15px;
+	border:none;
+	}
+.rgen-button {
+	padding:5px 15px;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#333;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e8e8e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e8e8e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e8e8e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#e8e8e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e8e8e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e8e8e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+	border:1px solid #e8e8e8;
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+	border-radius:15px;
+	white-space:nowrap;
+	display:inline-block;
+}
+.slideshowOptions .radio,
+.themeOptions .radio {
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+}
+.slideshowOptions input[type=radio],
+.themeOptions input[type=radio] {
+	margin:0px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	opacity:0;
+}
+.slideshowOptions input[type=radio] + label,
+.themeOptions input[type=radio] + label {
+	display:inline-block;
+	width:160px;
+	height:250px;
+	text-align:center;
+	white-space:normal;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.3);
+	margin-right:15px;
+	}
+.slideshowOptions input[type=radio]:checked + label,
+.themeOptions input[type=radio]:checked + label {
+	background: rgb(237,237,237); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(237,237,237,1) 0%, rgba(252,252,252,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,237,237,1)), color-stop(100%,rgba(252,252,252,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(237,237,237,1) 0%,rgba(252,252,252,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(237,237,237,1) 0%,rgba(252,252,252,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(237,237,237,1) 0%,rgba(252,252,252,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(237,237,237,1) 0%,rgba(252,252,252,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: inset 0px 3px 5px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0px 3px 5px 1px rgba(0, 0, 0, 0.2);
+	border:2px solid #FFD05E;
+}
+.slideshowOptions input[type=radio]:disabled + label {
+	opacity:0.3;
+	cursor:inherit;
+	}
+.slideshowOptions label span,
+.themeOptions label span {
+	display:block;
+	width:150px;
+	height:200px;
+	margin:15px auto 10px auto;
+	-webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+.themeOptions input[type=radio] + label { margin-bottom:20px; }
+
+.themeOptions label[for=RGen_Theme1] span {
+	background:url(../image/rgen_theme/theme-options1.jpg) no-repeat center center;
+}
+.themeOptions label[for=RGen_Theme2] span {
+	background:url(../image/rgen_theme/theme-options2.jpg) no-repeat center center;
+}
+.themeOptions label[for=RGen_Theme3_boxed] span,
+.themeOptions label[for=RGen_Theme3] span {
+	background:url(../image/rgen_theme/theme-options3.jpg) no-repeat center center;
+}
+.themeOptions label[for=RGen_Theme4] span {
+	background:url(../image/rgen_theme/theme-options4.jpg) no-repeat center center;
+}
+.themeOptions label[for=RGen_Theme4_boxed] span {
+	background:url(../image/rgen_theme/theme-options5.jpg) no-repeat center center;
+}
+
+.slideshowOptions input[type="radio"] + label {
+	height:220px;
+}
+.slideshowOptions .rgen-button {
+	padding:5px 10px;
+}
+.slideshowOptions label span {
+	width:155px;
+	height:170px;
+}
+.slideshowOptions label[for=ss_none] span {
+	background:url(../image/rgen_theme/slideshow-none.png) no-repeat center center;
+}
+.slideshowOptions label[for=ss_full] span {
+	background:url(../image/rgen_theme/slideshow-full.png) no-repeat center center;
+}
+.slideshowOptions label[for=ss_medium] span {
+	background:url(../image/rgen_theme/slideshow-medium.png) no-repeat center center;
+}
+.slideshowOptions label[for=ss_normal] span {
+	background:url(../image/rgen_theme/slideshow-normal.png) no-repeat center center;
+}
+.slideshowOptions label[for=ss_beside_bnr] span {
+	background:url(../image/rgen_theme/slideshow-beside-banner.png) no-repeat center center;
+}
+
+.slideshowOptions label[for=bannerNone] span {
+	background:url(../image/rgen_theme/small-banner-flexi.png) no-repeat center center;
+}
+.slideshowOptions label[for=bannerBelow] span {
+	background:url(../image/rgen_theme/small-banner-below.png) no-repeat center center;
+}
+.slideshowOptions label[for=bannerBeside] span {
+	background:url(../image/rgen_theme/small-banner-beside.png) no-repeat center center;
+}
+
+
+
+
+
+.menu1 { border-top:1px solid #dfdfdf; }
+.menu1 td { padding:6px 10px; border-bottom:1px solid #dfdfdf; }
+.menu-item td { background:#f7f7f7;	}
+.menu-item td input { width:157px; }

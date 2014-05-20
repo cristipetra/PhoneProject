@@ -1,0 +1,101 @@
+{
+ "kind": "defaultfonts#defaultfontList",
+ "items": [
+  {
+   "kind": "defaultfonts#defaultfont",
+   "family": "Arial",
+   "variants": [
+    "regular",
+    "bold",
+    "italic"
+   ],
+   "subsets": [
+    "--"
+   ]
+  },
+  {
+   "kind": "defaultfonts#defaultfont",
+   "family": "Verdana",
+   "variants": [
+    "regular",
+    "bold",
+    "italic"
+   ],
+   "subsets": [
+    "--"
+   ]
+  },
+  {
+   "kind": "defaultfonts#defaultfont",
+   "family": "Helvetica",
+   "variants": [
+    "regular",
+    "bold",
+    "italic"
+   ],
+   "subsets": [
+    "--"
+   ]
+  },
+  {
+   "kind": "defaultfonts#defaultfont",
+   "family": "Lucida Grande",
+   "variants": [
+    "regular",
+    "bold",
+    "italic"
+   ],
+   "subsets": [
+    "--"
+   ]
+  },
+  {
+   "kind": "defaultfonts#defaultfont",
+   "family": "Trebuchet MS",
+   "variants": [
+    "regular",
+    "bold",
+    "italic"
+   ],
+   "subsets": [
+    "--"
+   ]
+  },
+  {
+   "kind": "defaultfonts#defaultfont",
+   "family": "Times New Roman",
+   "variants": [
+    "regular",
+    "bold",
+    "italic"
+   ],
+   "subsets": [
+    "--"
+   ]
+  },
+  {
+   "kind": "defaultfonts#defaultfont",
+   "family": "Tahoma",
+   "variants": [
+    "regular",
+    "bold",
+    "italic"
+   ],
+   "subsets": [
+    "--"
+   ]
+  },
+  {
+   "kind": "webfonts#webfont",
+   "family": "Georgia",
+   "variants": [
+    "regular",
+    "bold",
+    "italic"
+   ],
+   "subsets": [
+    "--"
+   ]
+  }
+ ]
+}

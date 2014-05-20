@@ -1,0 +1,46 @@
+<modification>
+	<id>OPENTSHIRTS UPLOAD YOUR OWN ART</id>
+	<version>1.0</version>
+	<vqmver>2.1.7</vqmver>
+	<author>joseandriani</author>	
+	
+	<file name="catalog/view/theme/*/template/studio/toolbar.tpl">
+		<operation>
+			<search position="after"><![CDATA[<a id="btn_add_text"><span class="ot_ui-icon ot_ui-icon-text"></span><?php echo $toolbar_text_add_text; ?></a>]]></search>
+			<add><![CDATA[
+
+			<a id="btn_upload_art"><?php echo $toolbar_text_upload_art; ?></a>
+			
+			]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[</script>]]></search>
+			<add><![CDATA[
+
+			<script type="text/javascript" language="javascript">
+			$(function() {
+				$( "#btn_upload_art" ).button({
+								icons: {
+										primary: "ot_ui-icon-clipart"
+								}
+				}).click(function() {
+						loadPopUp('index.php?route=studio/upload_art');
+				});	
+			});
+			</script>
+			
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/studio/toolbar.php">
+		<operation>
+			<search position="after"><![CDATA[$this->data['toolbar_text_import_template'] = $this->language->get('toolbar_text_import_template');]]></search>
+			<add><![CDATA[
+
+			$this->language->load('studio/upload_art');
+			$this->data['toolbar_text_upload_art'] = $this->language->get('toolbar_text_upload_art');
+			
+			]]></add>
+		</operation>
+	</file>
+</modification>
