@@ -9,6 +9,6 @@ Preparation: Time to completion 20min (max)<br>
 5) Test web project loads<br>
 <br>
 Task: Time to completion 30min (max)<br>
-1) Place logo at the very right of the toolbar. <br>
+1) Place logo at the very right, into the toolbar. <br>
 2) Commit your code.<br>
 3) Answere YES to "Screening Question" and send your github id.<br>
