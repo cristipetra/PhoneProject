@@ -1,0 +1,215 @@
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+
+
+  /*********************************************************************************************
+		-	SET THE SCREEN SIZES FOR THE BANNER IF YOU WISH TO MAKE THE BANNER RESOPONSIVE 	-
+  **********************************************************************************************/
+
+  /*	-	THE BANNER CONTAINER (Padding, Shadow, Border etc. )	-	*/
+/*.revo-slideshow-wrapper {
+	margin-bottom: 50px;
+}*/
+.revo-slideshow-wrapper { margin-bottom: 40px; }
+.rv-pfs,
+.rv-pfws { margin: -40px -70px 70px -70px; }
+.rv-pfs { margin-top: 0; }
+.revo-pfs .home-wrapper #content { padding-top: 0px; }
+
+.responsive {
+	background-color: #fff;
+}
+.bannercontainer {
+	padding:0px;
+	/*max-width:940px;*/
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+.revo-slides {
+	position:relative;
+	overflow:hidden;
+	margin: auto;
+	opacity: 0;
+}
+.fullwidthbanner-container {
+	width:100% !important;
+	position:relative;
+	padding:0;
+	overflow:hidden;
+} 
+.fullwidthbanner-container .revo-slides {
+	width:100% !important;
+	position:relative;
+}
+.fullscreen-container {
+	width:100% !important;
+	position:relative;
+	padding:0;
+	height:100%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+	.responsive .tp-bullets	{	display:inline-block !important; }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	
+}
+@media only screen and (min-width: 200px) and (max-width: 419px) {
+
+}
+@media only screen and (min-width: 420px) and (max-width: 599px) {
+
+}
+
+.prdonrevo { position: relative; }
+.revo-prdonslide {
+    position: absolute;
+    bottom: 70px; right: 70px;
+}
+.revo-prdonslide #slidshow-box {
+    position: relative;
+    bottom: 0; right: 0 !important;
+}
+
+
+
+/*******************************************************************************
+		-	BULLETS AND ARROWS ADD ONS TO THE EXISTING VERSION 	-
+*******************************************************************************/
+
+.tp-bannertimer {
+    background:#777 !important;
+    background:rgba(0,0,0,0.1) !important;
+    height:5px !important;
+  }
+
+
+
+.tp-bullets.simplebullets.navbar {
+
+    height: 35px;
+    padding: 0px 0px;
+
+}
+.tp-bullets.simplebullets .bullet {
+    cursor: pointer;
+    position: relative !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 6px !important;
+    height: 6px !important;
+    border: 5px solid rgba(0, 0, 0, 0) !important;
+    display: inline-block;
+    margin-right: 2px !important;
+    margin-bottom: 14px !important;
+    -webkit-transition: background-color 0.2s, border-color 0.2s;
+    -moz-transition: background-color 0.2s, border-color 0.2s;
+    -o-transition: background-color 0.2s, border-color 0.2s;
+    -ms-transition: background-color 0.2s, border-color 0.2s;
+    transition: background-color 0.2s, border-color 0.2s;
+    float:none !important;
+}
+.tp-bullets.simplebullets .bullet.last {
+    margin-right: 0px
+}
+.tp-bullets.simplebullets .bullet:hover,
+.tp-bullets.simplebullets .bullet.selected {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	background: rgba(255, 255, 255, 1) !important;
+	width: 6px !important;
+    height: 6px !important;
+    border: 5px solid rgba(0, 0, 0, 1) !important;
+}
+
+
+
+.tparrows:before {
+    font-family: 'revicons';
+	color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: 0;
+    margin-top: 9px;
+    text-align: center;
+    width: 40px;
+    font-size: 20px;
+    line-height: 23px;
+}
+.tparrows {
+
+    cursor: pointer;
+
+    background: rgba(0, 0, 0, 0.5) !important;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 40px !important;
+    height: 40px !important;
+
+}
+.tparrows:hover {
+    color: #fff;
+}
+.tp-leftarrow:before {
+    content: '\e824';
+}
+.tp-rightarrow:before {
+    content: '\e825';
+}
+.tparrows.tp-rightarrow:before {
+    margin-left: 1px;
+}
+.tparrows:hover {
+    background: rgba(0, 0, 0, 1) !important;
+}
+
+
+
+/******************************
+	-	SLIDER NAV STYLE DEMOS	-
+********************************/
+
+#slider4container .tparrows:before,
+#slider4container .tparrows:hover,
+#slider4container .tparrows {
+    color: #000 !important;
+}
+
+#slider4container .tparrows {
+	background:#fff !important;
+	background:rgba(255,255,255,0.5) !important;
+}
+
+#slider4container .tparrows:hover	{
+	background:#fff !important
+}

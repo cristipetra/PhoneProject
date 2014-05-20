@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.visible-desktop { display: inherit !important; }
+#container { overflow:inherit; }
+.wf-full-slideshow #header-wrapper,
+.full-slideshow #header-wrapper { background:none; }
+.top-options { width:90%; }
+#menu select { width:90%; }
+#menu .selectWrp { display:none; }
+
+/*-------- PRODUCT BLOCKS --------*/
+
+@media only screen and (min-width: 1025px) {
+	.revo-pfs #header-wrapper,
+	.revo-fs #header-wrapper {
+		background:none;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	#container { overflow:hidden; }
+	.revo-pfs #header-wrapper {
+		background:none;
+	}
+	/*.rfw, .rfs { margin: -40px -40px 40px -40px; }*/
+}
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+	.bx #container { max-width:1080px; min-width:980px; }
+	.wide-ly .head-c.head0 .logo-in-header .top-options {
+		width: 875px;
+	}
+
+	.wide-ly .col-y .product-list .prd-block3 { width: auto; float: none; margin-right: 0; }
+
+	.wide-ly .RGen-prdinfo #column-left,
+	.wide-ly .RGen-prdinfo #column-right { display: none; }
+	.wide-ly .RGen-prdinfo #content #column-left + .content-body, 
+	.wide-ly .RGen-prdinfo #content #column-right + .content-body { width: 100%; }
+
+	/*-------- CUSTOM FOOTER --------*/
+
+	.wide-ly .column-1 .facebook-block span { width: 940px !important; }
+	.wide-ly .column-1 .fb_iframe_widget span,
+	.wide-ly .column-1 .fb_iframe_widget iframe { height: 250px !important; background-color: #000; }
+}

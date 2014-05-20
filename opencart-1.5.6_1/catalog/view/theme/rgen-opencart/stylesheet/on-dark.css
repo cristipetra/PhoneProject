@@ -1,0 +1,187 @@
+/*=====================================================  FULL BLOCK DARK THEMES  ==========*/
+
+/* Common */
+.dark-thm .header-1, 
+.dark-thm .header-2,
+.dark-thm .header-3,
+.dark-thm .header-4 {
+	color: #fff;
+}
+.dark-thm .prd-block1 ul,
+.dark-thm .custom-section .box-heading {
+	border-color: rgba(255,255,255,0.2);
+}
+.dark-thm .owl-controls.clickable .owl-page:hover span,
+.dark-thm .owl-page.active span {
+	background: rgba(255,255,255,0.3);
+}
+.dark-thm .owl-page span {
+	border-color: rgba(255,255,255,0.3);
+}
+.dark-thm .next, .dark-thm .prev {
+	box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.5);
+}
+.dark-thm .link-bt {
+	background: rgba(255,255,255,1);
+	color: #333;
+}
+.dark-thm .link-bt:hover {
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+}
+.dark-thm .prd-block1 a {
+	color: #fff;
+}
+.dark-thm .prd-block1 .price,
+.dark-thm .prd-block1 .price-new {
+	color: #fff;
+	opacity: 0.8;
+}
+.dark-thm .prd-block1 a.cart-bt {
+	background-color: transparent;
+	box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 0.2);
+	overflow: inherit;
+}
+
+
+/* Tabs */
+.dark-thm .custom-tabs a, 
+.dark-thm .tab-widget .tbs a {
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.dark-thm .custom-tabs a.selected, 
+.dark-thm .tab-widget .tbs a.selected {
+	color: inherit;
+	background-color: rgba(255, 255, 255, 1);
+}
+.dark-thm .custom-section.tbs4 .custom-tabs a.selected, 
+.dark-thm .tab-widget.tbs4 .tbs a.selected,
+.dark-thm .custom-section.tbs2 .custom-tabs a, 
+.dark-thm .tab-widget.tbs2 .tbs a,
+.dark-thm .custom-section.tbs1 .custom-tabs, 
+.dark-thm .tab-widget.tbs1 .tbs {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+.dark-thm .custom-section.tbs1 .custom-tabs a, 
+.dark-thm .tab-widget.tbs1 .tbs a {
+	color: rgba(255, 255, 255, 0.6);
+}
+.dark-thm .custom-section.tbs2 .custom-tabs a.selected, 
+.dark-thm .tab-widget.tbs2 .tbs a.selected,
+.dark-thm .custom-section.tbs1 .custom-tabs a.selected, 
+.dark-thm .tab-widget.tbs1 .tbs a.selected {
+	border-color: #fff;
+	color: #fff;
+	background-color: transparent;
+}
+
+.dark-thm .custom-section.tbs2 .custom-tabs a.selected:after, 
+.dark-thm .custom-section.tbs1 .custom-tabs a.selected:after, 
+.dark-thm .tab-widget.tbs2 .tbs a.selected:after, 
+.dark-thm .tab-widget.tbs1 .tbs a.selected:after {
+	border-color: #fff transparent transparent transparent;
+}
+.dark-thm .custom-section.tbs3 .custom-tabs a, 
+.dark-thm .tab-widget.tbs3 .tbs a {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: inherit;
+}
+.dark-thm .custom-section.tbs3 .custom-tabs a.selected, 
+.dark-thm .tab-widget.tbs3 .tbs a.selected {
+	background-color: #fff;
+	color: inherit;
+}
+.dark-thm .tab-widget.tbs2 .tbs a.selected,
+.dark-thm .custom-section.tbs4 .custom-tabs a.selected, 
+.dark-thm .tab-widget.tbs4 .tbs a.selected {
+	background-color: transparent;
+	color: #fff;
+}
+.dark-thm .tab-widget.tbs2 .tbs-pane,
+.dark-thm .custom-section.tbs4 .custom-tabs, 
+.dark-thm .tab-widget.tbs4 .tbs {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+.dark-thm .custom-section.tbs5 .custom-tabs a.selected, 
+.dark-thm .tab-widget.tbs5 .tbs a.selected {
+	background-color: #fff;
+	color: inherit;
+}
+.dark-thm .custom-section.tbs5 .custom-tabs, 
+.dark-thm .tab-widget.tbs5 .tbs {
+	border-color: #fff;
+}
+
+.dark-thm .tab-widget.tbs4 .tbs-pane,
+.dark-thm .tab-widget.tbs3 .tbs-pane,
+.dark-thm .tab-widget.tbs2 .tbs-pane,
+.dark-thm .tab-widget.tbs1 .tbs-pane {
+	color: #fff;
+}
+.dark-thm .tab-widget .tbs-pane {
+	background-color: #fff;
+	color: inherit;
+}
+.dark-thm .tab-widget.tbs1 .tbs a {
+	background-color: transparent;
+}
+
+/* Info boxes */
+.dark-thm .contentbox .cbox-content {
+	color: #fff;
+}
+.dark-thm .contentbox3 .btn-bar,
+.dark-thm .contentbox4 .cbox,
+.dark-thm .contentbox4 .cbox-main-hd:after,
+.dark-thm .contentbox2,
+.dark-thm .contentbox1,
+.dark-thm .contentbox .cbox-main-hd {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+.dark-thm .contentbox4 .cbox-main-hd b,
+.dark-thm .contentbox1 .cbox-main-hd {
+	background-color: transparent;
+}
+.dark-thm .contentbox .cbox-content,
+.dark-thm .contentbox1 .cbox-content,
+.dark-thm .contentbox2 .cbox-content,
+.dark-thm .contentbox3 .cbox-content,
+.dark-thm .contentbox4 .cbox-content {
+	color: #fff;
+}
+
+/* Category with sub category */
+.dark-thm .sec-box-wrp1 .sec-prd .prd:last-child, 
+.dark-thm .sec-box-wrp1 .sec-prd .prd,
+.dark-thm .brd-hd b, 
+.dark-thm .sec-prd .prd b,
+.dark-thm .sec-prd .prd,
+.dark-thm .sec-prd .prd:first-child,
+.dark-thm .sec-box ul li {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+.dark-thm .sec-box-wrp1 {
+	border-color: rgba(255, 255, 255, 0.1);
+}
+.dark-thm .sec-prd .prd .info .price span {
+	color: inherit;
+}
+.dark-thm .sec-prd .prd .info .price,
+.dark-thm .sec-prd .prd .name,
+.dark-thm .sec-box li a {
+	color: #fff;
+}
+.dark-thm .sec-prd .prd .info .price {
+	opacity: 0.7;
+}
+.dark-thm .brd-hd b:after, 
+.dark-thm .sec-prd .prd b:after {
+	border-color: transparent transparent transparent rgba(255, 255, 255, 0.2);
+}
+.dark-thm .sec-box-wrp1 .sec-box-hd {
+	background-color: rgba(255,255,255,0.2);
+}
+.dark-thm .brd-box-prd .sec-prd {
+	background-color: transparent;
+}

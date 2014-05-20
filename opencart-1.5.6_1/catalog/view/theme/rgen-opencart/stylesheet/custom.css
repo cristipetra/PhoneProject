@@ -1,0 +1,35 @@
+/*===========================================*/
+/*	DESKTOP LAYOUT 
+/*===========================================*/
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 980px) {
+
+}
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+
+}
+
+/*===========================================*/
+/*	TABLET LAYOUT 
+/*===========================================*/
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/*===========================================*/
+/*	MOBILE LAYOUT 
+/*===========================================*/
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 200px) and (max-width: 419px) {
+
+}
+@media only screen and (min-width: 420px) and (max-width: 599px) {
+
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	
+}
