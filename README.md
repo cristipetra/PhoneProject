@@ -10,6 +10,7 @@ Preparation: Time to completion 20min (max)<br>
 <br>
 Task: Time to completion 30min (max)<br>
 1) Place logo at the very right, into the toolbar. <br>
-2) Commit your code.<br>
-3) Answere YES to "Screening Question" and send your github id.<br>
+2) Remove "Powered By OpenCart" from the footer. <br>
+3) Commit your code.<br>
+4) Answere YES to "Screening Question" and send your github id.<br>
 
